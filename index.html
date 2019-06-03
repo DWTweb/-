@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/index.css"/>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 col-md-12">
+            <div class="navbar">
+                <a href="">
+                    <img src="" alt=""/>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="input-group mt-5">
+                <input class="form-control pt-0 pb-0" type="text" placeholder="旅游/酒店/景点/城市"/>
+                <a href="">
+                    <img src="../images/search.png" alt=""/>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-12">
+            <ul class="breadcrumb mt-5">
+                <li class="breadcrumb-item">
+                    <a class="text-muted" href="#">注册</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a class="text-muted" href="#">登录</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a class="text-muted" href="#">客服</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a class="text-muted" href="#">客服</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 导航栏-->
+    <div class=" navbar navbar-expand-md bav_nav mb-3 width_margin">
+        <ul class="navbar-nav nav-justified justify-content-center w-100">
+            <li class="nav-item">
+                <a class="nav-link" href="">首页</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">酒店</a>
+                <ul class="dropdown-menu">
+                    <li><a href="">酒店国内</a></li>
+                    <li><a href="">国外酒店</a></li>
+                    <li><a href="">星级酒店</a></li>
+                    <li><a href="">星级酒店</a></li>
+                    <li><a href="">星级酒店</a></li>
+                    <li><a href="">星级酒店</a></li>
+                    <li><a href="">星级酒店</a></li>
+                    <li><a href="">星级酒店</a></li>
+                    <li><a href="">星级酒店</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">旅游</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">跟团游</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">自由行</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">机票</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">火车</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">汽车票</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">门票</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">攻略</a>
+            </li>
+        </ul>
+    </div>
+    <div id="demo" class="carousel  width_margin" data-ride="carousel">
+        <!--1.轮播图片 -->
+        <div class="carousel-inner show_time img1">
+            <div class="carousel-item active ">
+                <a href=""><img class="w-100" src="../image2/08.jpg" alt=""/></a>
+            </div>
+            <div class="carousel-item">
+                <a href=""><img class="w-100" src="../images/iplace-2.jpg" alt=""/></a>
+            </div>
+            <div class="carousel-item">
+                <a href=""><img class="w-100" src="../images/bannerbg.jpg" alt=""/></a>
+            </div>
+            <div class="carousel-item">
+                <a href=""><img class="w-100" src="../images/iplace-4.jpg" alt=""/></a>
+            </div>
+            <div class="carousel-item">
+                <a href=""><img class="w-100" src="../image2/05.jpg" alt=""/></a>
+            </div>
+            <ul class="show-nav ">
+                <li  data-target="#demo" class="active" data-slide-to="0"><a href=""><img class="w-100" src="../image2/08.jpg" alt=""/><span></span></a></li>
+                <li data-target="#demo" class="active" data-slide-to="1"><a href=""><img class="w-100" src="../images/banner.jpg" alt=""/><span></span></a></li>
+                <li  data-target="#demo" class="active" data-slide-to="2"><a href=""><img class="w-100" src="../images/bannerbg.jpg" alt=""/><span></span></a></li>
+                <li  data-target="#demo" class="active" data-slide-to="3"><a href=""><img class="w-100" src="../image2/04.jpg" alt=""/><span></span></a></li>
+                <li  data-target="#demo" class="active" data-slide-to="4"><a href=""><img class="w-100" src="../image2/05.jpg" alt=""/><span></span></a></li>
+            </ul>
+        </div>
+        <!--2.轮播指示符 -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+        </ul>
+    </div>
+    <!--一楼-->
+    <div class="text-center mb-3 m-20">
+        <span class="style_size">本月热门</span>
+        <span class="style_size1">旅游景点</span>
+        <div class="title-line">
+            <div class="t1"></div>
+            <div class="t2"></div>
+            <div class="t3"></div>
+        </div>
+        <span class="size">世界领先的旅行和旅行预订网站，全球超过30,000个包裹。预订旅行套餐，享受独特体验的假期</span>
+    </div>
+    <div class="row width_margin">
+        <div class="col-md-4 col-sm-6 col-xs-12 img_border">
+            <div class="">
+                <img class="w-100 " src="../images/t1.png" alt=""/>
+            </div>
+            <div class="rows font_size2 d-flex ">
+                <div class="col-md-8 col-sm-8">
+                    <p><a class="font_size3 font-weight-bold" href="">稻城
+                    <span>(亚丁)</span></a></p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <ul class="list-unstyled d-flex">
+                        <li>
+                            <a href=""><img src="../images/clock.png" alt="最佳时间" title="最佳时间"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/info.png" alt="查看更多详情" title="查看更多详情"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/price.png" alt="攻略" title="攻略"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/map.png" alt="导航" title="导航"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12  img_border">
+            <div>
+                <img class="w-100" src="../images/t3.png" alt="旅游预定"/>
+            </div>
+            <div class="rows font_size2 d-flex">
+                <div class="col-md-8 col-sm-8">
+                    <p><a class="font_size3 font-weight-bold" href="">大理洱海
+                        <span>(云南)</span></a></p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <ul class="list-unstyled d-flex">
+                        <li>
+                            <a href=""><img src="../images/clock.png" alt="最佳时间"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/info.png" alt="查看更多详情"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/price.png" alt="攻略"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/map.png" alt="地址"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 img_border">
+            <div>
+                <img class="w-100" src="../images/t4.png" alt="旅游预定"/>
+            </div>
+            <div class="rows font_size2 d-flex">
+                <div class="col-md-8 col-sm-8">
+                    <p><a class="font_size3 font-weight-bold" href="">香格里拉
+                        <span>(云南)</span></a></p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <ul class="list-unstyled d-flex">
+                        <li>
+                            <a href=""><img src="../images/clock.png" alt="最佳时间"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/info.png" alt="查看更多详情"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/price.png" alt="攻略"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/map.png" alt="地址"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 mt-4 border-0 img_border">
+            <div>
+                <img class="w-100" src="../images/t6.png" alt="旅游预定"/>
+            </div>
+            <div class="rows font_size2 d-flex">
+                <div class="col-md-8 col-sm-8">
+                    <p><a class="font_size3 font-weight-bold" href="">香格里拉
+                        <span>(云南)</span></a></p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <ul class="list-unstyled d-flex">
+                        <li>
+                            <a href=""><img src="../images/clock.png" alt="最佳时间"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/info.png" alt="查看更多详情"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/price.png" alt="攻略"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/map.png" alt="地址"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 mt-4 img_border">
+            <div>
+                <img class="w-100" src="../images/t5.png" alt="旅游预定"/>
+            </div>
+            <div class="rows font_size2 d-flex">
+                <div class="col-md-8 col-sm-8">
+                    <p><a class="font_size3 font-weight-bold" href="">香格里拉
+                        <span>(云南)</span></a></p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <ul class="list-unstyled d-flex">
+                        <li>
+                            <a href=""><img src="../images/clock.png" alt="最佳时间"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/info.png" alt="查看更多详情"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/price.png" alt="攻略"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/map.png" alt="地址"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 mt-4 img_border">
+            <div>
+                <img class="w-100" src="../images/t2.png" alt="旅游预定"/>
+            </div>
+            <div class="rows font_size2 d-flex">
+                <div class="col-md-8 col-sm-8">
+                    <p><a class="font_size3 font-weight-bold" href="">香格里拉
+                        <span>(云南)</span></a></p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <ul class="list-unstyled d-flex">
+                        <li>
+                            <a href=""><img src="../images/clock.png" alt="最佳时间"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/info.png" alt="查看更多详情"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/price.png" alt="攻略"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/map.png" alt="地址"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="text-center mb-3">
+        <span class="style_size1">热门</span>
+        <span class="style_size">1024家酒店</span>
+        <span class="style_size1">现在预订</span>
+        <div class="title-line">
+            <div class="t1"></div>
+            <div class="t2"></div>
+            <div class="t3"></div>
+        </div>
+        <span class="size">世界领先的酒店预订网站，全球超过30,000间酒店客房。预订酒店客房，享受独特体验的假期</span>
+    </div>
+    <div class="row width_margin">
+        <div class="col-md-4 col-sm-6">
+           <div>
+               <a href=""><img class="w-100 img_border" src="../images/hotels/1.jpg" alt=""/></a>
+           </div>
+            <div class="style_font">
+                <h5>希尔顿大酒店</h5>
+                <p>城市:大理,云南</p>
+                <div class="d-flex">
+                    <span>评分:</span>
+                    <ul class="list-unstyled d-flex text-capitalize">
+                        <li class="">
+                            <a class="star" href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="star" href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="star"  href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="star"  href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="star"  href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div>
+                <a href=""><img class="w-100 img_border" src="../images/hotels/2.jpg" alt=""/></a>
+            </div>
+            <div class="style_font">
+                <h5>希尔顿大酒店</h5>
+                <p>城市:大理,云南</p>
+                <div class="d-flex">
+                    <span>评分:</span>
+                    <ul class="list-unstyled d-flex text-capitalize">
+                        <li class="">
+                            <a class="star" href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="star" href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="star"  href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="star"  href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="star"  href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div>
+                <a href=""><img class="w-100 img_border" src="../images/hotels/3.jpg" alt=""/></a>
+            </div>
+            <div class="style_font">
+                <h5>希尔顿大酒店</h5>
+                <p>城市:大理,云南</p>
+                <div class="d-flex">
+                    <span>评分:</span>
+                    <ul class="list-unstyled d-flex text-capitalize">
+                        <li class="">
+                            <a class="star" href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="star" href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="star"  href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="star"  href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="star"  href="">
+                                <img src="../images/star.png" alt=""/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="text-center mb-3">
+            <span class="style_size1">热门</span>
+            <span class="style_size">旅游景点</span>
+            <span class="style_size1">排行</span>
+            <div class="title-line">
+                <div class="t1"></div>
+                <div class="t2"></div>
+                <div class="t3"></div>
+            </div>
+            <span class="size">世界领先的酒店预订网站，全球超过30,000间酒店客房。预订酒店客房，享受独特体验的假期</span>
+        </div>
+        <input class="my_input mb-3 mt-3" type="text" placeholder="请输入关键字" title="输入名称"/>
+        <table class="my_table mb-3 ml-5 mr-5">
+            <tbody>
+                <tr>
+                    <th>
+                        <span>#</span>
+                    </th>
+                    <th>活动名称</th>
+                    <th>日期</th>
+                    <th>时间</th>
+                    <th>地点</th>
+                    <th>书</th>
+                </tr>
+                <tr>
+                    <td>
+                        <span>1</span>
+                    </td>
+                    <td>
+                        <img src="../images/iplace-1.jpg" alt="">
+                        <a href="#" class="events-title">
+                            <span class="">泰姬陵，印度阿格拉</span>
+                        </a>
+                    </td>
+                    <td>
+                        <span>2019年5月1日</span>
+                    </td>
+                    <td>
+                        <span>20点:20分</span>
+                    </td>
+                    <td>
+                        <span>澳大利亚</span>
+                    </td>
+                    <td>
+                        <a href=""><span>现在预订</span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <img src="../images/iplace-2.jpg" alt="">
+                        <a href="#" class="events-title">
+                            <span class="">泰姬陵，印度阿格拉</span>
+                        </a>
+                    </td>
+                    <td>
+                        <span>2019年5月1日</span>
+                    </td>
+                    <td>
+                        <span>20点:20分</span>
+                    </td>
+                    <td>
+                        <span>澳大利亚</span>
+                    </td>
+                    <td>
+                        <a href=""><span>现在预订</span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <img src="../images/iplace-3.jpg" alt="">
+                        <a href="#" class="events-title">
+                            <span class="">泰姬陵，印度阿格拉</span>
+                        </a>
+                    </td>
+                    <td>
+                        <span>2019年5月1日</span>
+                    </td>
+                    <td>
+                        <span>20点:20分</span>
+                    </td>
+                    <td>
+                        <span>澳大利亚</span>
+                    </td>
+                    <td>
+                        <a href=""><span>现在预订</span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <img src="../images/iplace-4.jpg" alt="">
+                        <a href="#" class="events-title">
+                            <span class="">泰姬陵，印度阿格拉</span>
+                        </a>
+                    </td>
+                    <td>
+                        <span>2019年5月1日</span>
+                    </td>
+                    <td>
+                        <span>20点:20分</span>
+                    </td>
+                    <td>
+                        <span>澳大利亚</span>
+                    </td>
+                    <td>
+                        <a href=""><span>现在预订</span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <img src="../images/iplace-5.jpg" alt="">
+                        <a href="#" class="events-title">
+                            <span class="">泰姬陵，印度阿格拉</span>
+                        </a>
+                    </td>
+                    <td>
+                        <span>2019年5月1日</span>
+                    </td>
+                    <td>
+                        <span>20点:20分</span>
+                    </td>
+                    <td>
+                        <span>澳大利亚</span>
+                    </td>
+                    <td>
+                        <a href=""><span>现在预订</span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>
+                        <img src="../images/iplace-1.jpg" alt="">
+                        <a href="#" class="events-title">
+                            <span class="">泰姬陵，印度阿格拉</span>
+                        </a>
+                    </td>
+                    <td>
+                        <span>2019年5月1日</span>
+                    </td>
+                    <td>
+                        <span>20点:20分</span>
+                    </td>
+                    <td>
+                        <span>澳大利亚</span>
+                    </td>
+                    <td>
+                        <a href=""><span>现在预订</span></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="rows pla pad-bot-redu tb-space">
+        <div class="pla1 p-home container">
+            <div class="text-center mb-3">
+                <span class="style_size1 text-white">本月热门</span>
+                <span class="style_size text-warning">旅游套餐</span>
+                <span class="style_size1">现在预订</span>
+                <div class="title-line">
+                    <div class="t1"></div>
+                    <div class="t2"></div>
+                    <div class="t3"></div>
+                </div>
+                <span class="size">世界领先的旅行和旅行预订网站，全球超过30,000个包裹。预订旅行套餐，享受独特体验的假期</span>
+            </div>
+            <div class="popu-places-home d-flex mb-5">
+                <!-- POPULAR PLACES 1 -->
+                <div class="col-md-6 col-sm-6 col-xs-12 place d-flex">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <img class="img_border1" src="../images/place2.jpg" alt="" />
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
+                        <span>蜜月套餐</span>
+                        <p class="font_size4">7天/6晚</p>
+                        <p class="font_size5">我们一直在旅行，一直在等待某个人可以成为我们旅途的伴侣，陪我们走过一段别人无法替代的记忆。在那里，有我们特有的记忆，亲情之忆、友谊之花、爱情之树、以及遗憾之泪！</p>
+                        <a href="" class="link-btn">查看更多</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 place d-flex">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <img class="img_border1" src="../images/place1.jpg" alt="" />
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <span>蜜月套餐</span>
+                        <p class="font_size4">7天/6晚</p>
+                        <p class="font_size5">我们一直在旅行，一直在等待某个人可以成为我们旅途的伴侣，陪我们走过一段别人无法替代的记忆。在那里，有我们特有的记忆，亲情之忆、友谊之花、爱情之树、以及遗憾之泪！</p>
+                        <a href="" class="link-btn">查看更多</a>
+                    </div>
+                </div>
+            </div>
+            <div class="popu-places-home d-flex mb-5">
+                <!-- POPULAR PLACES 1 -->
+                <div class="col-md-6 col-sm-6 col-xs-12 place d-flex">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <img class="img_border1" src="../images/place3.jpg" alt="" />
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <span>蜜月套餐</span>
+                        <p class="font_size4">7天/6晚</p>
+                        <p class="font_size5">我们一直在旅行，一直在等待某个人可以成为我们旅途的伴侣，陪我们走过一段别人无法替代的记忆。在那里，有我们特有的记忆，亲情之忆、友谊之花、爱情之树、以及遗憾之泪！</p>
+                        <a href="" class="link-btn">查看更多</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 place d-flex">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <img class="img_border1" src="../images/place4.jpg" alt="" />
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <span>蜜月套餐</span>
+                        <p class="font_size4">7天/6晚</p>
+                        <p class="font_size5">我们一直在旅行，一直在等待某个人可以成为我们旅途的伴侣，陪我们走过一段别人无法替代的记忆。在那里，有我们特有的记忆，亲情之忆、友谊之花、爱情之树、以及遗憾之泪！</p>
+                        <a href="" class="link-btn">查看更多</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row tour-consul d-flex">
+        <div class="col-md-6 pt-5 justify-content-around border-0">
+            <span class="to-con-1 ">请与我们联系</span>
+            <h2 class="text-white font-weight-bold mt-3">获得最佳旅游优惠</h2>
+            <hr>
+            <p class="text-white">获取最优惠的酒店，度假，火车旅行优惠.Donec eget odio a nunc lacinia rhoncus。<br>Vivamus dignissim magna quis nisl fermentum porttitor。Maecenas venenatis mattis dui在pharetra.Nullam  rutrum odio eu viverra accumsan。Nam orci elit，scelerisque eget dui non，<br>sagittis tristique metus。Fusce nec nulla dapibus，fringilla nulla eu，vehicula odio。</p>
+            <hr>
+            <span class="to-con-2">帮助热线:+100 123456789</span>
+            <div class="mt-5">
+                <a href=""><span class="to-con-3">立即预定</span></a>
+                <a href=""><span class="to-con-4">立即联系</span></a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img class="img1 mt-3" src="../images/video.png" alt=""/>
+        </div>
+    </div>
+   <footer>
+       <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="408px"></iframe>
+   </footer>
+
+
+
+
+</body>
+</html>
